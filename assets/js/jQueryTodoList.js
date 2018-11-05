@@ -1,6 +1,10 @@
 //Check off Specific To-dos By Clicking
 $('li').click( function(){
-	//if li is gray
+$(this).toggleClass("completed");
+
+
+//************ Test version class .Complited **************
+/*	//if li is gray
 	if($(this).css("color")==="rgb(128, 128, 128)"){
 		//turn it black
 			$(this).css({
@@ -14,4 +18,5 @@ $('li').click( function(){
 				color: "gray",
 				textDecoration: "line-through"});
 		}
+*/
 });

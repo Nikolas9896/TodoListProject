@@ -5,5 +5,5 @@
 }
 .completed{
 	color: gray;
-	textDecoration: line-through;
+	text-decoration: line-through;
 }
