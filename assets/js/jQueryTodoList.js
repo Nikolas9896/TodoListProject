@@ -1,8 +1,6 @@
 //Check off Specific To-dos By Clicking
 $('ul').on( "click", "li", function(){
 $(this).toggleClass("completed");
-
-
 //************ Test version class .Complited **************
 /*	//if li is gray
 	if($(this).css("color")==="rgb(128, 128, 128)"){
@@ -38,4 +36,8 @@ $("input[type='text']").keypress(function(event){
 		//create a new li and add to ul
 		$("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> "+todoText+"</li");
 	}
+});
+
+$(".fa-plus-circle").click(function(){
+	$("input[type='text']").fadeToggle();
 });
