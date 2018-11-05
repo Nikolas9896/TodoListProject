@@ -7,22 +7,33 @@ h1	{
 	font-size: 24px;
 	font-weight: 400;
 }
+
 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	font-family: Roboto;
 }
+
 li {
 	background: #FFFFFF;
 	height: 40px;
-	line-height: 40px
+	line-height: 40px;
+	color: #666;
 }
 li:nth-child(2n){
 	background: #F7F7F7;
 }
+
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+}
+
 #container	{
 	width: 366px;
 	margin: 100px auto;
