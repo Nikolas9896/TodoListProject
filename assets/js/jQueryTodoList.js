@@ -20,3 +20,10 @@ $(this).toggleClass("completed");
 		}
 */
 });
+// Click on X to delete To-Dos
+$('ul li span').click(function(){
+	$(this).parent().fadeOut(300, function(){
+		(this).remove();
+	});
+	
+});
