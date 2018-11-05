@@ -57,3 +57,7 @@ input:focus{
 	color: gray;
 	text-decoration: line-through;
 }
+
+.fa-plus-circle{
+	float: right;
+}
